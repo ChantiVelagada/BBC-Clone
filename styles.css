@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+:root{
+    --border-color:#c9d1d9;
+    --white-color:white;
+    --hover-color:#1167A8;
+    --search-color:#E4E4E4;
+    --tech-color:#A91716;
+    --headingPara-color:#686868;
+    --black-color:black;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+/* Navbar Section */
+
+nav.navbar{
+    padding:0;
+    width:1100px;
+    margin:0 auto;
+    font-size:smaller;
+    font-weight:500;
+}
+
+nav#navbar1 ul li {
+    border-left:1px solid var(--border-color);
+    padding:0 14px 0;
+}
+
+#search-btn{
+    margin-right: 0;
+    background-color:var(--search-color);
+    right:18%;
+}
+
+#search-btn button{
+    border: none;
+    
+}
+
+#search-btn input{
+    border: none;
+    background-color:var(--search-color);
+    color: #333;
+    font-weight: bold;
+    padding-left: 5px;
+}
+
+#main1{
+    background-color:var(--white-color);
+}
+
+#main2{
+    background-color:#BB1A19;
+    height:60px;
+}
+
+#main3{
+    background-color: #A91716;
+    height: 40px;
+}
+
+#navbar2{
+    color:var(--white-color);
+}
+
+#navbar2 p{
+    font-size:40px;
+    margin-left:50px;
+}
+
+#navbar2 .btn{
+    color: var(--white-color);
+    border:1px solid var(--border-color);
+    border-radius: 0px;
+    margin-bottom:18px;
+    margin-right:80px;
+    padding-right:40px;
+}
+
+nav#navbar3 ul li a{
+    padding:0 14px 5px;
+    color: var(--white-color);
+    border-right:1px solid var(--border-color);
+    margin:10px 0;
+}
+
+/* Article Section */
+
+.active-heading{
+    width:1100px;
+    margin: 0 auto;
+}
+
+.active-heading h1{
+    font-size: larger;
+    font-weight: 500;
+    width: max-content;
+    border-bottom:3px solid #A91716;
+    padding-bottom:2px;
+    margin:10px 20px ;
+}
+
+.section-container{
+  width: 1100px;
+  margin:0 auto;
+  display: grid;
+  grid-template-columns: 250px 250px 250px 300px;
+  grid-template-rows: 200px 200px 200px 180px;
+}
+
+#asda{
+    grid-area:1/1/3/4;
+    margin:20px 20px;
+    border-bottom:1px solid var(--border-color);
+}
+
+#aside{
+    grid-area: 1/4/5/5;
+    border-left:1px solid var(--border-color);
+    padding-left: 20px;
+    margin-top:20px ;
+}
+
+#twitter{
+    grid-area: 3/1/5/2;
+}
+
+#land{
+    grid-area: 3/2/5/3;
+}
+
+#extra{
+    grid-area:3/3/5/4;
+}
+
+#img-asda{
+    width:500px;
+    float: right;
+}
+
+.tech{
+    text-decoration: none;
+    color: var(--tech-color);
+    border-left: 1px solid var(--border-color);
+    padding-left: 5px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.tech:hover{
+    color: var(--hover-color);
+}
+
+#asda a{
+    text-decoration: none;
+}
+
+.heading{
+    font-size: 32px;
+    font-weight: bold;
+    color: var(--headingPara-color);
+}
+
+.heading:hover{
+    color: var(--hover-color);
+}
+
+.para{
+    font-size: 15px;
+    color:var(--headingPara-color);
+}
+
+.links a{
+    font-size: 14px;
+    color: var(--black-color);
+    text-decoration: none;
+}
+
+.links a:hover{
+    color:var(--hover-color);
+}
+
+.headings2 h3{
+    font-size: 18px;
+    text-decoration: none;    color: var(--headingPara-color);
+}
+
+.headings2{
+    text-decoration: none;
+}
+
+.headings2 h3:hover{
+    color: var(--hover-color);
+}
+
+#aside h2 {
+    font-size: 20px;
+    color: var(--headingPara-color);
+}
+
+.side-link a{
+    text-decoration: none;
+    color: var(--headingPara-color);
+    font-size:14px;
+}
+
+.side-link{
+    line-height: 20px;
+}
+
+.side-link a:hover{
+    color: var(--hover-color);
+}
+
+#aside div{
+   height: 100px;
+}
+
+.img-aside{
+    width: 120px;
+    height: 80px;
+    float: left;
+    padding-top: 10px;
+    padding-right: 5px;
+}
+
+.date{
+    font-size: 13px;
+    color:grey;
+}
+
+#land {
+    border-left: 1px solid var(--border-color);
+    border-right:1px solid var(--border-color);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#extra{
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+#twitter{
+    padding-right: 10px;
+    padding-left: 20px;
+}
+
+#extra div{
+    border-bottom: 1px solid var(--border-color);
+    padding: 10px 5px;
+}
+
+#navbar3 ul li a:hover{
+    border-bottom: 5px solid;
+}
+
+article img{
+    margin-bottom: 5px;
+}

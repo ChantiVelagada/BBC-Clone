@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BBC Clone</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  </head>
+  <body>
+  <div>
+    <div id="main1">
+      <nav id="navbar1" class="navbar navbar-expand">
+        <ul class="navbar-nav">
+          <li class="nav-item" style="border-left: none;">
+            <a class="nav-link" href="#"><img id="logo" src="bbc-logo.png" alt="BBB Logo"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sign In</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fa-solid fa-bell"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">News</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sport</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Weather</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">TV</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Radio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">iPlayer</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">More</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Future</a></li>
+              <li><a class="dropdown-item" href="#">Travel</a></li>
+              <li><a class="dropdown-item" href="#">LifeStyle</a></li>
+            </ul>
+          </li>
+        </ul>
+        <div id="search-btn">
+          <input type="search" placeholder="Search">
+          <button type="submit"><img src="search.png" alt=""></button>
+        </div>
+      </nav>
+    </div>
+    <div id="main2">
+      <nav id="navbar2" class="navbar">
+        <div>
+          <p id="news">NEWS</p>
+        </div>
+        <div>
+          <button class="btn">Find Local News</button>
+        </div>
+      </nav>
+    </div>
+    <div id="main3">
+      <nav id="navbar3" class="navbar navbar-expand">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">UK</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">World</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Business</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Politics</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Tech</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Science</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Health</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Education</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Entertainment & arts</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Video & Audio</a></li>
+          <li class="nav-item dropdown" >
+            <a class="nav-link dropdown-toggle" style="border: none;"  data-bs-toggle="dropdown" href="#">More</a>
+            <ul class="dropdown-menu">
+              <li><a style="color: black;" class="dropdown-item" href="#">Future</a></li>
+              <li><a style="color: black;" class="dropdown-item" href="#">Travel</a></li>
+              <li><a style="color: black;" class="dropdown-item" href="#">LifeStyle</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <main>
+    <div class="active-heading"><h1>Technology</h1></div>
+    <section class="section-container">
+      <article id="asda">
+          <a href="#"><h3 class="heading">Asda bug exposed payment details</h3></a>
+          <a href="#"><img id="img-asda" src="asda.webp" alt="asda" ></a>
+          <p class="para">Security vulnerabilities that put customers
+            at risk have effected Asda's website for a 
+            couple of years, a security expert has revealed.
+          </p>
+          <p>2 hours ago  <a class="tech" href="#"> Technology</a></p>
+          <p class="links"><a href="#">Surveillance firm hit in hack attack</a></p>
+          <p class="links"><a href="#">eBay flaw has existed for months</a></p>
+        
+      </article>
+      <article id="twitter">
+          <a href="#"><img src="twitter.webp" alt="twitter bot" width="220px" height="120px" /></a>
+          <a class="headings2" href="#"><h3>Twitter suffers technical fault</h3></a>
+          <p class="para">
+          The social media network Twitter goes offline for 
+          many users, with web visitors being greeted by an error page.
+          </p>
+          <p>1 hour ago <a class="tech" href="#">Technology</a></p>
+          <p class="links"><a href="#">Facebook down for secondtime in week</a></p>
+      </article>
+      <article id="land">
+          <a href="#"><img src="drone land.png" alt="" width="220px" height="120px" ></a>
+          <a class="headings2" href="#"><h3>Drone lands on moving car in Germany</h3></a>
+          <p class="para">
+            Roboticists in Germany have taught a drone how to
+            land itself on a car travelling at 75 km/h(47mph).
+          </p>
+          <p>44 minutes ago <a class="tech" href="#">Technology</a></p>
+          <p class="links"><a href="#">Drone flies over sea to deliver package</a></p>
+      </article>
+      <article id="extra">
+        <div>
+          <a class="headings2" href="#"><h3>Samsung updates sticky stylus holder</h3></a>
+          <p>1 hour ago <a class="tech" href="#">Technology</a></a></p>
+        </div>
+        <div id="minecraft">
+          <a class="headings2" href="#"><h3>Minecraft to launch new edition</h3></a>
+          <p>4 hours ago <a class="tech" href="#">Technology</a></p>
+        </div>
+        <div>
+          <a class="headings2" href="#"><h3>Ask.fm reveals top teen slang</h3></a>
+          <p>3 hours ago <a class="tech" href="#">Technology</a></p>
+        </div>
+      </article>
+      <aside id="aside">
+        <h2>Watch/Listen</h2>
+        <div>
+          <a href="#"><img class="img-aside" src="uk.png" alt="uk"></a>
+          <h3 class="side-link"><a href="">UK science chief backs blockchains</a></h3>
+          <p class="date">1 hour ago</p>
+        </div>
+        <div>
+          <a href="#"><img class="img-aside" src="drone2.png" alt="drone"></a>
+          <h3 class="side-link"><a href="#">Drone register gives 'accountability'</a></h3>
+          <p class="date">18 January 2016</p>
+        </div>
+        <div>
+          <a href="#"><img class="img-aside" src="spaceX.png" alt="sapceX"></a>
+          <h3 class="side-link"><a href="#">SpaceX rocket explodes during landing</a></h3>
+          <p class="date">18 January 2016</p>
+        </div>
+        <div>
+          <a href="#"><img class="img-aside" src="VPN.png" alt="vpn"></a>
+          <h3 class="side-link"><a href="#">What is VPN service?</a></h3>
+          <p class="date">15 January 2016</p>
+        </div>
+        <div>
+          <a href="#"><img class="img-aside" src="Charge.png" alt="charge"></a>
+          <h3 class="side-link"><a href="#">Charge your phone with a hand crank</a></h3>
+          <p class="date">15 January 2016</p>
+        </div>
+      </aside>
+    </section>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  </body>
+</html>
